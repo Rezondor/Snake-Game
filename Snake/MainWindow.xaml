@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Snake"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Canvas Name="Box"/>
+        Title="MainWindow" Height="450" Width="800"  KeyDown="Canvas_KeyDown">
 
-    </Grid>
+    <Canvas Margin="15" Background="Black" >
+
+        <Rectangle Fill="White" Width="50" Height="50" RadiusX="15" RadiusY="15" Name="Rect" Canvas.Left="360" Canvas.Top="177" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+    </Canvas>
 </Window>
